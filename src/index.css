@@ -1,5 +1,22 @@
-body {
+*, body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
+}
+
+.count {
+	font-size: 6em;
+}
+
+button {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	outline: 0;
+	border: 0;
+	align-items: center;
+	justify-content: center;
+	font-size: 3em;
+	display: inline-block;
 }
